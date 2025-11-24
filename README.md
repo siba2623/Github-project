@@ -34,3 +34,13 @@ npm install
 npm start
 ```
 
+GitHub Pages
+------------
+This project includes a GitHub Actions workflow to build and deploy the `main` branch to GitHub Pages. After the first successful deployment, your site will be available at:
+
+https://siba2623.github.io/Github-project/
+
+Preview (hero)
+--------------
+![hero preview](public/assets/hero_preview.jpg)
+
