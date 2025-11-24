@@ -1,4 +1,8 @@
-:root{
+cd 'C:\Users\Sibabalwe.Dyantyi\Documents\Git project'
+git branch -M main
+git remote remove origin    # optional: remove placeholder remote first
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+git push -u origin main:root{
   --accent: #2f855a;
   --muted: #6b7280;
 }
@@ -7,7 +11,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 .hero{
-  background-image: url('./assets/hero.svg');
+  background-image: url('./assets/hero.jpg');
   background-size: cover;
   background-position: center;
   color: white;
