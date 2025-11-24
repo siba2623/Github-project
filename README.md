@@ -21,3 +21,16 @@ Notes about pushing
 ------------------
 If you'd like me to push this repository for you, provide the public GitHub repository URL (or add me as a collaborator) and I'll push the `main` branch to that remote. Otherwise use the commands below to push from your machine.
 
+Build status
+------------
+![CI](https://github.com/siba2623/Github-project/actions/workflows/ci.yml/badge.svg)
+
+Local development
+-----------------
+Install dependencies and start the dev server:
+
+```powershell
+npm install
+npm start
+```
+
